@@ -1,5 +1,24 @@
-Essa é apenas a raiz do projeto, então não há nada aqui para ser visto. Os detalhes dos padrões estão dentro de cada uma das pastas com seu nome. Existe um README com a descrição completa do padrão, um (ou mais) diagrama(s) e um trecho de código. Cada padrão está em sua categoria correspondente, são elas: creational (criacionais), behavioural (comportamentais) e structural (estruturais).
+# Padrões de Projeto
 
-Os vídeos descrevendo os padrões são publicados em https://www.youtube.com/watch?v=MqddY6Ochkc&list=PLbIBj8vQhvm0VY5YrMrafWaQY2EnJ3j8H  
+São soluções elegantes para problemas conhecidos recorrentes no desenvolvimento de softwares que foram utilizados e testados no passado e continuam relevantes nos dias atuais.
 
-Por favor, acompanhe os vídeos para maior entendimento.
+Eles são dividos em 3 categorias: de criação (creational), que visam abstrair o processo de como objetos são criados na aplicação; estruturais (structural), que lidam com a composição de classes e objetos; comportamento (behavoural), que caracterizam como as classes e objetos interagem e distribuem responsabilidades na aplicação.
+
+## Benefícios e problemas
+
+O que é bom:
+
+- Você não precisa reinventar a roda
+- Padrões universais facilitam o entendimento do seu projeto
+- Evita refatoração desnecessária
+- Ajuda na reutilização de código (conceito DRY - Don't repeat yourself)
+- Abstrai e nomeia partes particulares do projeto
+- Ajuda na aplicação dos princípios do design orientado a objetos (SOLID)
+- Facilitam a criação de testes unitários
+
+O que é ruim:
+
+- Alguns padrões podem ser complexos ate que você os compreenda
+- Muito código para atingir um objetivo simples
+- Podem trazer otimizações prematuras para o seu código (YAGNI - You Ain't Gonna Need it)
+- Se usados incorretamente, podem atrapalhar ao invés de ajudar
