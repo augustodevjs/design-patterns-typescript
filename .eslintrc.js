@@ -20,7 +20,9 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
+
   rules: {
     '@typescript-eslint/no-empty-function': 'off',
+    'prettier/prettier': 'off',
   },
 };

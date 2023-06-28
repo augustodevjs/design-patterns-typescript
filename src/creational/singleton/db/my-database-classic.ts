@@ -1,17 +1,17 @@
-import { User } from '../interfaces';
+import { User } from "../interface/user";
 
 export class MyDataBaseClassic {
   private static _instance: MyDataBaseClassic | null = null;
   private users: User[] = [];
 
-  private constructor() {}
+  private constructor() { }
 
   static get instance(): MyDataBaseClassic {
-    if (MyDataBaseClassic._instance === null) {
+    if (MyDataBaseClassic._instance == null) {
       MyDataBaseClassic._instance = new MyDataBaseClassic();
     }
 
-    return MyDataBaseClassic._instance;
+    return MyDataBaseClassic._instance
   }
 
   add(user: User): void {

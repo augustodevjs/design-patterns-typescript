@@ -1,8 +1,9 @@
-import { MyDatabaseFunction } from './db';
+import { MyDataBaseClassic } from "./db/my-database-classic";
 
-const myDatabaseClassic = MyDatabaseFunction;
-myDatabaseClassic.add({ name: 'Luiz', age: 30 });
-myDatabaseClassic.add({ name: 'Maria', age: 50 });
-myDatabaseClassic.add({ name: 'Eduardo', age: 25 });
+const myDataBaseClassic = MyDataBaseClassic.instance;
+myDataBaseClassic.add({ name: 'Augusto', age: 20 });
+myDataBaseClassic.add({ name: 'Maria', age: 10 });
+myDataBaseClassic.add({ name: 'João', age: 25 });
+myDataBaseClassic.add({ name: 'Rafa', age: 32 });
 
-export { myDatabaseClassic };
+myDataBaseClassic.show()
